@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:2.1-runtime
+FROM microsoft/dotnet:3.1-alpine
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
